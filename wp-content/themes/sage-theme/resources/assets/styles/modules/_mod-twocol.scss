@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+    .btn-nav {
+        @apply border-2 w-2/6 border-primary;
+    }
+
+    h1 {
+        @apply text-4xl pr-40 h-96 pt-14;
+    }
+
+    h2 {
+        @apply text-2xl h-16 w-3/5;
+    }
+
+    h3 {
+        @apply text-2xl pr-40 h-32;
+    }
+
+    h4 {
+        @apply text-2xl h-16 font-bold;
+    }
+
+    h5 {
+        @apply text-2xl pr-40 h-32;
+    }
+
+    .article {
+        @apply w-11/12 text-lg;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    // .sm\:bg-brand-gradient { /* ... */ }
+    .btn-nav {
+        @apply border-2 w-1/5 border-primary;
+    }
+
+    h1 {
+        @apply text-4xl h-96 pt-14 pr-44;
+    }
+
+    .nav-2 {
+        @apply flex;
+    }
+
+    .nav-2-1 {
+        @apply flex-1;
+    }
+
+    h2 {
+        @apply text-2xl h-16 w-3/5;
+    }
+
+    h3 {
+        @apply text-2xl h-16 pr-40 h-32;
+    }
+
+    h4 {
+        @apply text-2xl h-32 font-bold pr-50;
+    }
+
+    h5 {
+        @apply text-2xl pr-40 h-32;
+    }
+
+    .article {
+        @apply w-11/12 text-lg pr-28;
+    }
+
+    .text {
+        @apply text-4xl font-bold tracking-tight;
+    }
+
+    .text-1 {
+        @apply text-xl pr-100 font-bold;
+    }
+
+    .conten-slick-demo {
+        @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+        @apply border-solid border-2 rounded-3xl bg-white;
+        // border-white
+    }
+
+    // .conten-slick-demo-1 {
+    //     @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+    //     @apply border-solid border-2 rounded-3xl bg-white;
+    //     // border-white
+    // }
+
+    .slick-prev {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+            // float: bottom;
+        }
+    }
+
+    .slick-next {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+        }
+    }
+
+    // .Our-Open {
+    //     @apply mt-81;
+    // }
+
+    // .content-our-open {
+    //     @apply mt-40 text-4xl font-bold;
+    // }
+
+    // .content-our-open-1 {
+    //     @apply flex mt-21;
+    // }
+
+    // .content-our-open-p {
+    //     @apply flex-1 mr-25 text-lg tracking-wide font-light w-80; // 1em = 16px   
+    // }
+
+    // .content-our-open-image {
+    //     @apply flex-1;
+    // }
+
+    .the-latest {
+        @apply text-lg not-italic leading-6 text-left font-bold w-85 h-13;
+        color: orangered;
+    }
+
+    .content-the-latest-1 {
+        // @apply flex flex-wrap w-full;
+        @apply border-solid border-2 rounded-3xl bg-white;
+    }
+
+    .content-the-latest-1-1 {
+        .img {
+            @apply pb-25 h-80 w-80;
+        }
+    }
+
+    .content-the-latest-1-1 {
+        @apply flex flex-wrap w-full;
+    }
+
+    .the-latest-p-1 {
+        @apply text-2xl font-bold pl-20 pr-30;
+    }
+
+    .the-latest-p-2 {
+        @apply text-lg font-light w-full pl-20 pr-30 pb-9;
+    }
+
+    .the-latest-p-3 {
+        @apply text-lg font-bold w-full pl-20 pr-30;
+        color: orangered;
+    }
+
+    .content-the-latest-2 {
+        // @apply flex flex-wrap w-full;
+        @apply border-solid border-2 rounded-3xl bg-white h-50;
+    }
+
+    .content-the-latest-2-1 {
+        @apply flex flex-wrap w-full;
+    }
+
+    .content-the-latest-3 {
+        // @apply flex flex-wrap w-full;
+        @apply border-solid border-2 rounded-3xl bg-white;
+    }
+
+    .content-the-latest-3-1 {
+        @apply flex flex-wrap w-full;
+    }
+
+    .icon-chevron-down:before {
+        content: "\e90a";
+    }
+}
+
+@media (min-width: 1920px) {
+    .nav {
+        @apply flex;
+    }
+
+    .nav-1 {
+        @apply flex-1;
+    }
+
+    .nav-1-1 {
+        @apply flex-1;
+    }
+
+    // .nav-2-1 {
+    //     @apply flex-1;
+    // }
+
+    .btn-nav {
+        @apply border-2 w-1/4 border-primary;
+    }
+
+    h1 {
+        @apply text-4xl h-96 pt-14 pr-100;
+    }
+
+    h2 {
+        @apply text-2xl h-16 w-full;
+    }
+
+    h3 {
+        @apply text-2xl pr-40 h-40;
+    }
+
+    h4 {
+        @apply text-2xl h-24 font-bold p-0;
+    }
+
+    h5 {
+        @apply text-2xl h-28 p-0;
+    }
+
+    .article {
+        @apply w-11/12 text-lg pr-28;
+    }
+}

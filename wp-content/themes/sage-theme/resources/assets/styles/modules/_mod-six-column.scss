@@ -1,0 +1,27 @@
+.container-6 {
+    @apply bg-gray-300;
+}
+
+.Align {
+    @apply ml-30 mr-70;
+}
+
+.Our-Open {
+    // @apply mt-81;
+}
+
+.content-our-open {
+    @apply mt-40 text-4xl font-bold;
+}
+
+.content-our-open-1 {
+    @apply flex mt-21;
+}
+
+.content-our-open-p {
+    @apply flex-1 mr-25 text-lg tracking-wide font-light w-80; // 1em = 16px   
+}
+
+.content-our-open-image {
+    @apply flex-1;
+}
