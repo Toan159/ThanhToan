@@ -1,0 +1,18 @@
+@screen xl {
+    .module-page-three {
+        @apply flex;
+    }
+
+    .page-three-column {
+        @apply flex-[50%];
+    }
+
+    .page-three-column-1 {
+        @apply flex-[50%];
+    }
+
+    .content-column {
+        @apply text-4xl font-bold;
+    }
+
+}
