@@ -19,8 +19,17 @@ export default class TwoCol {
       nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
     })
   }
+  // addSlick() {
+  //   this.$this.find('.the-latest-p-3').slick({
+  //     rows: 0,
+  //     adaptiveHeight: true,
+  //     infinite: true,
+  //     prevArrow: '<button type="button" class="slick-prev arrows"><span class="icomoon h1 icon-chevron-left"></span></button>',
+  //     nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
+  //   })
+  // }
   addSlick() {
-    this.$this.find('.the-latest-p-3').slick({
+    this.$this.find('.slick-slider-demo-module-nice-column').slick({
       rows: 0,
       adaptiveHeight: true,
       infinite: true,
@@ -43,9 +52,22 @@ $(document).ready(function () {
   });
 });
 
+// $(document).ready(function () {
+//   $(".the-latest-span").slick({
+//     slidesToShow: 1,
+//     // slidesToScroll: 1,
+//     // content: "\e910",
+//     // infinite: true,
+//     // speed: 1,
+//     // color: red,
+//     // arrows: false,
+//     // draggble: false,
+//   });
+// });
+
 $(document).ready(function () {
-  $(".the-latest-span").slick({
-    slidesToShow: 1,
+  $(".slick-slider-demo-module-nice-column").slick({
+    slidesToShow: 5,
     // slidesToScroll: 1,
     // content: "\e910",
     // infinite: true,

@@ -39,7 +39,27 @@
                     "name": "two_column",
                     "label": "Two Column",
                     "display": "block",
-                    "sub_fields": [],
+                    "sub_fields": [
+                        {
+                            "key": "field_63945b3e5b339",
+                            "label": "Heading",
+                            "name": "heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
                     "min": "",
                     "max": ""
                 },
@@ -47,6 +67,33 @@
                     "key": "layout_6394162fdb798",
                     "name": "six_column",
                     "label": "Six Column",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6395de2bb14a2": {
+                    "key": "layout_6395de2bb14a2",
+                    "name": "eight_column",
+                    "label": "Eight Column",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63968edab54a3": {
+                    "key": "layout_63968edab54a3",
+                    "name": "nice_column",
+                    "label": "Nice Column",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6396b22bc74bd": {
+                    "key": "layout_6396b22bc74bd",
+                    "name": "seven_column",
+                    "label": "Seven Column",
                     "display": "block",
                     "sub_fields": [],
                     "min": "",
@@ -76,5 +123,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670649391
+    "modified": 1670820395
 }

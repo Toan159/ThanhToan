@@ -1,0 +1,17 @@
+@screen xl {
+    .module-seven {
+        @apply pl-52;
+    }
+
+    .row-module-seven {
+        @apply text-4xl font-bold;
+    }
+
+    .row-module-seven-1 {
+        @apply text-3xl pr-60;
+    }
+
+    .row-module-seven-2 {
+        @apply text-3xl pr-100;
+    }
+}

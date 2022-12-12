@@ -1,0 +1,29 @@
+@screen xl {
+    .module-nice-column {
+        @apply border-t border-gray-300;
+    }
+
+    .row-module-nice {
+        @apply pr-[300px] pl-[300px] font-bold text-4xl pb-3 text-center;
+        
+    }
+
+    .row-module-nice-2 {
+        @apply pl-[300px] pr-[300px] text-lg font-light text-center;
+    }
+
+    .slick-prev {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+            // float: bottom;
+        }
+    }
+
+    .slick-next {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+        }
+    }
+}

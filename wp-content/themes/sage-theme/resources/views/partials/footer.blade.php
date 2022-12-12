@@ -4,7 +4,7 @@
       <ul class="list-none col p-0 w-1/2 lg:w-2/3">
         <li>
           <!-- <span class="icomoon icon-chevron-right"></span> -->
-          <!-- <a href="#">alo</a> -->
+          <!-- <img class="w-full" src="@asset('./images/default/Group 2692.png')"> -->
         </li>
         <!-- {!! App::getFooterNav() !!} -->
       </ul>
@@ -15,7 +15,8 @@
   </div>
   <div class="container text-center footer-bottom">
     <div class="footer-copyright last-mb-none p-3">
-      {!! App::getCopyRight() !!}
+      <!-- {!! App::getCopyRight() !!} -->
+      <!-- <img src="@asset('./images/default/Group 2692.png')"> -->
     </div>
   </div>
 </footer>

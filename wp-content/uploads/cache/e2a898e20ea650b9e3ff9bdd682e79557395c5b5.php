@@ -4,7 +4,7 @@
       <ul class="list-none col p-0 w-1/2 lg:w-2/3">
         <li>
           <!-- <span class="icomoon icon-chevron-right"></span> -->
-          <!-- <a href="#">alo</a> -->
+          <!-- <img class="w-full" src="<?= \App\asset_path('./images/default/Group 2692.png'); ?>"> -->
         </li>
         <!-- <?php echo App::getFooterNav(); ?> -->
       </ul>
@@ -16,8 +16,8 @@
   </div>
   <div class="container text-center footer-bottom">
     <div class="footer-copyright last-mb-none p-3">
-      <?php echo App::getCopyRight(); ?>
-
+      <!-- <?php echo App::getCopyRight(); ?> -->
+      <!-- <img src="<?= \App\asset_path('./images/default/Group 2692.png'); ?>"> -->
     </div>
   </div>
 </footer>

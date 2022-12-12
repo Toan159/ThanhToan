@@ -1,0 +1,29 @@
+@screen xl { // kích thước 1200
+    .module-row-1 {
+        @apply pl-[300px] pr-[300px] mb-5 text-center;
+    }
+    
+    .content-module-two {
+        @apply text-4xl font-bold tracking-tight ;
+    }
+
+    .module-row-2 {
+        @apply px-92 mb-31 text-center;
+    }
+
+    .content-module-two-1 {
+        @apply text-2xl font-light tracking-tight;
+    }
+
+    // .module-row-3 {
+    //     @apply px-75 mb-13;
+    // }
+
+    .module-row-4 {
+        @apply  mt-13 ;
+    }
+
+    .module-1 {
+        @apply text-2xl font-semibold text-center;
+    }
+}
