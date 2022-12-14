@@ -1,0 +1,40 @@
+@screen xl {
+    .module-one-column {
+        @apply bg-bgbanner bg-cover bg-no-repeat h-[560px] border-2 border-t-4 mt-[-60px];
+    }
+
+    .flex-one-column {
+        @apply pl-50 pt-20;
+    }
+
+    .flex-two-column {
+        @apply pt-25;
+    }
+
+    .Connection-one-column {
+        @apply pr-50;
+    }
+
+    .content-one-column {
+        @apply text-6xl font-bold;
+        color: white;
+    }
+
+    .Connection-one-column-1 {
+        @apply pr-[210px] pb-4;
+    }
+
+    .Connection-one-column-2 {
+        @apply pt-20;
+    }
+
+    .content-one-column-1 {
+        @apply text-xl font-light not-italic;
+        color: white;
+    }
+
+    .context-one-column-2 {
+        @apply border-solid border-2 p-10 border-r rounded-3xl bg-primary;
+    }
+
+}

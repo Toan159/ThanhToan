@@ -18,6 +18,10 @@ module.exports = {
       montserrat: ['Montserrat', 'sans-serif'],
       syncopate: ['Syncopate', 'sans-serif']
     },
+    backgroundImage:{
+      bgbanner:"url('../../assets/images/default/Group-header.png')",
+      footer:"url('../../assets/images/default/Group 2692.png')",
+    },
 
     spacing: configs.spaces,
     maxWidth: configs.maxWidths,

@@ -1,9 +1,9 @@
-<footer id="footer" class="module footer">
-  <div class="container footer-top">
+<footer id="footer" class="module footer ">
+  <div class="container footer-top bg-footer bg-cover bg-repeat">
     <div class="row">
       <ul class="list-none col p-0 w-1/2 lg:w-2/3">
         <li>
-          <!-- <span class="icomoon icon-chevron-right"></span> -->
+          <span class="icomoon icon-chevron-right">alo alo</span>
           <!-- <img class="w-full" src="@asset('./images/default/Group 2692.png')"> -->
         </li>
         <!-- {!! App::getFooterNav() !!} -->

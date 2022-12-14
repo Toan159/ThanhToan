@@ -1,4 +1,4 @@
-<header id="header" class="module header w-full top-0 left-0 fixed z-200 down_lg:overflow-hidden">
+<header id="header" class="module header w-full top-0 left-0 fixed z-200 down_lg:overflow-hidden bg-bgbanner bg-cover bg-no-repeat ">
     <div class="container">
         <nav class="row navbar items-center">
             <div class="col w-full down_lg:flex down_lg:flex-wrap lg:w-1/5 header-mobile relative justify-between items-center">
@@ -33,11 +33,12 @@
                     <li class="active menu-item mb-0">
                         <a class="block py-9 lg:p-9 no-underline" href="#">CONTACT US</a>
                     </li>
-                    <!-- <li class="menu-item mb-0">
+                    <li class="menu-item mb-0">
                         <a class="block py-9 lg:p-9 no-underline" href="#">Training</a>
-                    </li> -->
+                    </li>
                 </ul>
-                <!-- <?php echo App::getMainNav(); ?> -->
+                <?php echo App::getMainNav(); ?>
+
             </div>
         </nav>
     </div>
