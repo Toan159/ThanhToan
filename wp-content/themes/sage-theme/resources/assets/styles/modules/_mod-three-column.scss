@@ -1,57 +1,119 @@
-@screen xl {
-    .module-page-three {
-        @apply flex;
-    }
+.module-page-three {
+    // @apply pr-51;
 
-    .page-three-column {
-        @apply flex-[60%] text-center;
-    }
+    // .page-three-column {
+    //     @apply flex-[60%] text-center;
+    // }
 
-    .page-three-column-1 {
-        @apply flex-[40%];
-    }
+    // .page-three-column-1 {
+    //     @apply flex-[40%];
+    // }
 
     .content-column {
-        @apply text-4xl font-bold ;
+        @apply text-4xl font-bold pb-6 pr-80;
     }
-    
-    // .module-image-1 {
+
+    // .image-three-column-2 {
+    //     @apply float-right;
+    // }
+
+    // .image-three-column-3 {
     //     @apply p-0;
     // }
-    // .image-three-column-1 {
-    //     @apply float-right text-center;
-    // }
-
-
-    .image-three-column-2 {
-        @apply float-right;
-    }
-
-    .image-three-column-3 {
-        @apply p-0;
-    }
-
-    .content-column {
-        @apply pb-6
-    }
-
-    .page-three-column-1 {
-        @apply pr-51;
-    }
-
-    .content-column {
-        @apply pr-[130px];
-    }
 
     .Connecting-text {
         @apply text-4xl font-bold;
     }
 
     .content-column-at-bottom {
-        @apply pr-50;
+        @apply pr-82;
     }
-    
+
     .Connecting-text-bottom {
         @apply text-lg;
     }
+
+    .LEARN-MORE {
+        @apply border-solid bg-primary rounded-3xl pl-33 pt-8 pr-30 pb-8 font-extrabold text-base;
+        color: #f9fafb;
+    }
+}
+
+@screen xl {
+    .module-page-three {
+        @apply pr-51;
+
+        .page-three-column {
+            @apply flex-[60%] text-center;
+        }
+
+        .page-three-column-1 {
+            @apply flex-[40%];
+        }
+
+        .content-column {
+            @apply text-4xl font-bold pb-6 pr-80;
+        }
+
+        // .image-three-column-2 {
+        //     @apply float-right;
+        // }
+
+        // .image-three-column-3 {
+        //     @apply p-0;
+        // }
+
+        .Connecting-text {
+            @apply text-4xl font-bold;
+        }
+
+        .content-column-at-bottom {
+            @apply pr-82;
+        }
+
+        .Connecting-text-bottom {
+            @apply text-lg;
+        }
+
+        .LEARN-MORE {
+            @apply border-solid bg-primary rounded-3xl pl-33 pt-8 pr-30 pb-8 font-extrabold text-base;
+            color: #f9fafb;
+        }
+    }
+}
+
+@screen 2xl {
+    .module-page-three {
+        @apply pr-51;
+
+        .content-column {
+            @apply text-4xl font-bold pb-6 pr-20;
+        }
+
+        .image-three-column-2 {
+            @apply float-right;
+        }
+
+        .Connecting-text {
+            @apply text-4xl font-bold;
+        }
+
+        .content-column-at-bottom {
+            @apply pr-50;
+        }
+
+        .Connecting-text-bottom {
+            @apply text-lg;
+        }
+
+        .LEARN-MORE {
+            @apply border-solid bg-primary rounded-3xl pl-33 pt-8 pr-30 pb-8 font-extrabold text-base;
+            color: #f9fafb;
+        }
+    }
+
+    // .LEARN-MORE {
+    //     @apply border-solid bg-primary rounded-3xl pl-33 pt-8 pr-30 pb-8 font-extrabold text-base;
+    //     color: #f9fafb;
+    // }
 }

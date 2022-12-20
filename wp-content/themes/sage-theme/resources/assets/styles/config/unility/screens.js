@@ -11,5 +11,5 @@ const Screens = {
   'down_sm': {'max': '480px'}
 }
 module.exports = {
-  Screens
+  Screens 
 }

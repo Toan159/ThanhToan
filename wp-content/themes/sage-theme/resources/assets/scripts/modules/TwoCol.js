@@ -10,15 +10,15 @@ export default class TwoCol {
     console.log('test4', this.$html)
     $('body').addClass('abc')
   }
-  addSlick() {
-    this.$this.find('.lick-slider-demo').slick({
-      rows: 0,
-      adaptiveHeight: true,
-      infinite: true,
-      prevArrow: '<button type="button" class="slick-prev arrows"><span class="icomoon h1 icon-chevron-left"></span></button>',
-      nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
-    })
-  }
+  // addSlick() {
+  //   this.$this.find('.lick-slider-demo').slick({
+  //     rows: 0,
+  //     adaptiveHeight: true,
+  //     infinite: true,
+  //     prevArrow: '<button type="button" class="slick-prev arrows"><span class="icomoon h1 icon-chevron-left"></span></button>',
+  //     nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
+  //   })
+  // }
   // addSlick() {
   //   this.$this.find('.the-latest-p-3').slick({
   //     rows: 0,
@@ -28,15 +28,15 @@ export default class TwoCol {
   //     nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
   //   })
   // }
-  addSlick() {
-    this.$this.find('.slick-slider-demo-module-nice-column').slick({
-      rows: 0,
-      adaptiveHeight: true,
-      infinite: true,
-      prevArrow: '<button type="button" class="slick-prev arrows"><span class="icomoon h1 icon-chevron-left"></span></button>',
-      nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
-    })
-  }
+  // addSlick() {
+  //   this.$this.find('.slick-slider-demo-module-nice-column').slick({
+  //     rows: 0,
+  //     adaptiveHeight: true,
+  //     infinite: true,
+  //     prevArrow: '<button type="button" class="slick-prev arrows"><span class="icomoon h1 icon-chevron-left"></span></button>',
+  //     nextArrow: '<button type="button" class="slick-next arrows"><span class="icomoon h1 icon-chevron-right"></span></button>',
+  //   })
+  // }
 }
 
 $(document).ready(function () {
@@ -68,13 +68,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".slick-slider-demo-module-nice-column").slick({
     slidesToShow: 5,
-    // slidesToScroll: 1,
-    // content: "\e910",
-    // infinite: true,
-    // speed: 1,
-    // color: red,
-    // arrows: false,
-    // draggble: false,
+    // slidesToScroll: 2,
   });
 });
 new TwoCol().init()

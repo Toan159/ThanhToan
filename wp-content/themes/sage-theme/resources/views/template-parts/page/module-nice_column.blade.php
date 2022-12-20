@@ -1,7 +1,7 @@
 <section class="module-nice-column">
-    <div class="container module-nice-column">
+    <div class="container ">
         <div class="row-module-nice">
-            <span class="content-module-nice-column">Trusted By Industry Leaders Across the Supply Chain</span>
+            <h1>Trusted By Industry Leaders Across the Supply Chain</h1>
         </div>
         <div class="row-module-nice-2">
             <span class="content-module-nice-column-2">We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best of what technology,

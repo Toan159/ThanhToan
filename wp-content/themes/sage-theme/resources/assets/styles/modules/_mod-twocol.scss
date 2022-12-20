@@ -1,146 +1,276 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @screen md {
+.module-example-blade {
+    @apply px-10;
 
-@screen md {
-    .btn-nav {
+    .border-nav {
         @apply border-2 w-2/6 border-primary;
+
     }
 
-    h1 {
-        @apply text-4xl pr-40 h-96 pt-14;
-    }
-
-    h2 {
-        @apply text-2xl h-16 w-3/5;
-    }
-
-    h3 {
-        @apply text-2xl pr-40 h-32;
-    }
-
-    h4 {
-        @apply text-2xl h-16 font-bold;
-    }
-
-    h5 {
-        @apply text-2xl pr-40 h-32;
-    }
-
-    .article {
-        @apply w-11/12 text-lg;
-    }
-}
-
-@screen xl { // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
-    .btn-nav {
-        @apply border-2 w-1/5 border-primary;
-    }
-
-    h1 {
-        @apply text-4xl h-96 pt-14 pr-44;
-    }
-
-    .nav-2 {
-        @apply flex;
-    }
-
-    .nav-2-1 {
-        @apply flex-1;
-    }
-
-    h2 {
-        @apply text-2xl h-16 w-3/5;
-    }
-
-    h3 {
-        @apply text-2xl h-16 pr-40 h-32;
-    }
-
-    h4 {
-        @apply text-2xl h-32 font-bold pr-50;
-    }
-
-    h5 {
-        @apply text-2xl pr-40 h-32;
-    }
-
-    .article {
-        @apply w-11/12 text-lg pr-28;
-    }
-
-    .text {
+    .text-module-two-column {
         @apply text-4xl font-bold tracking-tight;
     }
 
-    .text-1 {
-        @apply text-xl pr-100 font-bold;
+    .text-1-module-two-column {
+        @apply text-xl pr-100 font-bold tracking-sp8;
     }
 
     .conten-slick-demo {
         @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
         @apply border-solid border-2 rounded-3xl bg-white;
-        // border-white
     }
 
-    // .slick-prev {
-    //     &::before {
-    //         color: orangered;
-    //         font-size: 25px;
-    //         // float: bottom;
-    //     }
-    // }
+    .slick-prev {
+        &::before {
+            @apply text-orange-100;
+            // color: orangered;
+            font-size: 25px;
+            // float: bottom;
+        }
+    }
 
-    // .slick-next {
-    //     &::before {
-    //         color: orangered;
-    //         font-size: 25px;
-    //     }
-    // }
+    .slick-next {
+        &::before {
+            @apply text-orange-100;
+            // color: orangered;
+            font-size: 25px;
+        }
+    }
+   
 }
 
-@media (min-width: 1920px) {
-    .nav {
-        @apply flex;
+// }
+
+@screen xl {
+
+    // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
+    .module-example-blade {
+        @apply px-72;
+
+
+        .nav-module-two-column-1 {
+            @apply flex-1 pb-25;
+
+            .border-nav {
+                @apply border-2 w-1/4 border-primary;
+            }
+        }
+
+        h3 {
+            @apply pr-55;
+        }
+
+        h4 {
+            @apply pr-35;
+        }
+
+        h5 {
+            @apply pr-35;
+        }
+
+        .nav-module-two-column-2 {
+            @apply flex-1 pb-65;
+        }
+
+        .nav-2-module-two-column {
+            @apply flex;
+
+            .nav-2-1-module-two-column {
+                @apply flex-1;
+            }
+
+            .article-module-two-column {
+                @apply w-11/12 text-lg pr-37;
+            }
+        }
+
+        .text-module-two-column {
+            @apply text-4xl font-bold tracking-tight;
+        }
+
+        .text-1-module-two-column {
+            @apply text-xl pr-100 font-bold tracking-sp8;
+        }
+
+        .conten-slick-demo {
+            @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+            @apply border-solid border-2 rounded-3xl bg-white;
+        }
+
+        .slick-prev {
+            &::before {
+                @apply text-orange-100;
+                // color: orangered;
+                font-size: 25px;
+                // float: bottom;
+            }
+        }
+
+        .slick-next {
+            &::before {
+                @apply text-orange-100;
+                // color: orangered;
+                font-size: 25px;
+            }
+        }
     }
+}
 
-    .nav-1 {
-        @apply flex-1;
+@screen 2xl {
+    // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
+
+    .module-example-blade {
+        @apply px-72;
+
+        .nav-module-two-column {
+            @apply flex;
+        }
+
+        .nav-module-two-column-1 {
+            @apply flex-1;
+
+            .border-nav {
+                @apply border-2 w-1/4 border-primary;
+            }
+        }
+
+        h1 {
+            @apply pr-75;
+        }
+
+        h3 {
+            @apply pr-25;
+        }
+
+        h4 {
+            @apply pr-20;
+        }
+
+        h5 {
+            @apply pr-0;
+        }
+
+        .nav-module-two-column-2 {
+            @apply flex-1;
+        }
+
+        .nav-2-module-two-column {
+            @apply flex;
+
+            .nav-2-1-module-two-column {
+                @apply flex-1;
+            }
+
+            .article-module-two-column {
+                @apply w-11/12 text-lg pr-0;
+            }
+        }
+
+        .text-module-two-column {
+            @apply text-4xl font-bold tracking-tight;
+        }
+
+        .text-1-module-two-column {
+            @apply text-xl pr-100 font-bold text-gray-400;
+        }
+
+        .conten-slick-demo {
+            @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
+            @apply border-solid border-2 rounded-3xl bg-white;
+        }
+
+        .slick-prev {
+            &::before {
+                color: orangered;
+                font-size: 25px;
+                // float: bottom;
+            }
+        }
+
+        .slick-next {
+            &::before {
+                color: orangered;
+                font-size: 25px;
+            }
+        }
     }
+}
 
-    .nav-1-1 {
-        @apply flex-1;
-    }
+// @media (min-width: 1920px) {
+@screen 2k {
+    .module-example-blade {
+        @apply px-72;
 
-    // .nav-2-1 {
-    //     @apply flex-1;
-    // }
+        .nav-module-two-column {
+            @apply flex;
+        }
 
-    .btn-nav {
-        @apply border-2 w-1/4 border-primary;
-    }
+        .nav-module-two-column-1 {
+            @apply flex-1;
 
-    h1 {
-        @apply text-4xl h-96 pt-14 pr-100;
-    }
+            .border-nav {
+                @apply border-2 w-1/4 border-primary;
+            }
+        }
 
-    h2 {
-        @apply text-2xl h-16 w-full;
-    }
+        // h1 {
+        //     @apply pr-75;
+        // }
 
-    h3 {
-        @apply text-2xl pr-40 h-40;
-    }
+        // h3 {
+        //     @apply pr-25;
+        // }
 
-    h4 {
-        @apply text-2xl h-24 font-bold p-0;
-    }
+        // h4 {
+        //     @apply pr-20;
+        // }
 
-    h5 {
-        @apply text-2xl h-28 p-0;
-    }
+        // h5 {
+        //     @apply pr-0;
+        // }
 
-    .article {
-        @apply w-11/12 text-lg pr-28;
+        .nav-module-two-column-2 {
+            @apply flex-1;
+        }
+
+        .nav-2-module-two-column {
+            @apply flex;
+
+            .nav-2-1-module-two-column {
+                @apply flex-1;
+            }
+
+            .article-module-two-column {
+                @apply w-11/12 text-lg pr-0;
+            }
+        }
+
+        .text-module-two-column {
+            @apply text-4xl font-bold tracking-tight;
+        }
+
+        .text-1-module-two-column {
+            @apply text-xl pr-100 font-bold text-gray-400;
+        }
+
+        .conten-slick-demo {
+            @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
+            @apply border-solid border-2 rounded-3xl bg-white;
+        }
+
+        .slick-prev {
+            &::before {
+                color: orangered;
+                font-size: 25px;
+                // float: bottom;
+            }
+        }
+
+        .slick-next {
+            &::before {
+                color: orangered;
+                font-size: 25px;
+            }
+        }
     }
 }
