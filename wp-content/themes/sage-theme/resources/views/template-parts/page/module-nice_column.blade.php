@@ -1,11 +1,11 @@
 <section class="module-nice-column">
     <div class="container ">
-        <div class="row-module-nice">
-            <h1>Trusted By Industry Leaders Across the Supply Chain</h1>
+        <div class="font-bold text-4xl pb-3 text-center">
+            <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
         </div>
-        <div class="row-module-nice-2">
-            <span class="content-module-nice-column-2">We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best of what technology,
-                specifically built for the beverage and food industry, can make possible.</span>
+        <div class="px-40 text-lg font-light text-center pb-13">
+            <p class="">We are trusted by the world’s leading manufacturers, distributors, and retailers to provide the best of what technology,
+                specifically built for the beverage and food industry, can make possible.</p>
         </div>
         <div class="slick-slider-demo-module-nice-column">
             <div>

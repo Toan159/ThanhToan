@@ -1,104 +1,104 @@
-@screen xl {
-    .module-six-column {
-        .Our-Open-column {
-            @apply pt-50;
-        }
+// @screen xl {
+//     .module-six-column {
+//         .Our-Open-column {
+//             @apply pt-50;
+//         }
 
-        .header-column {
+//         .header-column {
 
-            .content-column-1 {
+//             .content-column-1 {
 
-                // @apply pr-80;
-                h1 {
-                    @apply text-4xl font-bold pr-0;
-                }
-            }
-        }
+//                 // @apply pr-80;
+//                 h1 {
+//                     @apply text-4xl font-bold pr-0;
+//                 }
+//             }
+//         }
 
-        .content-our-open-span-1 {
-            @apply pr-38 pb-10;
+//         .content-our-open-span-1 {
+//             @apply pr-38 pb-10;
 
-            span {
-                @apply text-lg font-light tracking-sp11;
-            }
-        }
+//             span {
+//                 @apply text-lg font-light tracking-sp11;
+//             }
+//         }
 
-        .content-our-open-span-2 {
-            @apply pr-38 ;
+//         .content-our-open-span-2 {
+//             @apply pr-38 ;
 
-            span {
-                @apply text-lg font-light tracking-sp11;
-            }
-        }
-    }
-}
+//             span {
+//                 @apply text-lg font-light tracking-sp11;
+//             }
+//         }
+//     }
+// }
 
-@screen 2xl {
-    .module-six-column {
-        .Our-Open-column {
-            @apply pt-50;
-        }
+// @screen 2xl {
+//     .module-six-column {
+//         .Our-Open-column {
+//             @apply pt-50;
+//         }
 
-        .header-column {
+//         .header-column {
 
-            .content-column-1 {
+//             .content-column-1 {
 
-                // @apply pr-80;
-                h1 {
-                    @apply text-4xl font-bold pr-60;
-                }
-            }
-        }
+//                 // @apply pr-80;
+//                 h1 {
+//                     @apply text-4xl font-bold pr-60;
+//                 }
+//             }
+//         }
 
-        .content-our-open-span-1 {
-            @apply pb-10 pr-55;
+//         .content-our-open-span-1 {
+//             @apply pb-10 pr-55;
 
-            span {
-                @apply text-lg font-light tracking-sp11 not-italic;
-            }
-        }
+//             span {
+//                 @apply text-lg font-light tracking-sp11 not-italic;
+//             }
+//         }
 
-        .content-our-open-span-2 {
-            @apply pr-80;
+//         .content-our-open-span-2 {
+//             @apply pr-80;
 
-            span {
-                @apply text-lg font-light tracking-sp11 not-italic;
-            }
-        }
-    }
-}
+//             span {
+//                 @apply text-lg font-light tracking-sp11 not-italic;
+//             }
+//         }
+//     }
+// }
 
-@screen 2k {
-    .module-six-column {
-        .Our-Open-column {
-            @apply pt-50;
-        }
+// @screen 2k {
+//     .module-six-column {
+//         .Our-Open-column {
+//             @apply pt-50;
+//         }
 
-        .header-column {
+//         .header-column {
 
-            .content-column-1 {
+//             .content-column-1 {
 
-                // @apply pr-80;
-                h1 {
-                    @apply text-4xl font-bold pr-60;
-                }
-            }
-        }
+//                 // @apply pr-80;
+//                 h1 {
+//                     @apply text-4xl font-bold pr-60;
+//                 }
+//             }
+//         }
 
-        .content-our-open-span-1 {
-            @apply pb-10 pr-55;
+//         .content-our-open-span-1 {
+//             @apply pb-10 pr-55;
 
-            span {
-                @apply text-lg font-light tracking-sp11 not-italic;
-            }
-        }
+//             span {
+//                 @apply text-lg font-light tracking-sp11 not-italic;
+//             }
+//         }
 
-        .content-our-open-span-2 {
-            @apply pr-80;
+//         .content-our-open-span-2 {
+//             @apply pr-80;
 
-            span {
-                @apply text-lg font-light tracking-sp11 not-italic;
-            }
-        }
-    }
-}
+//             span {
+//                 @apply text-lg font-light tracking-sp11 not-italic;
+//             }
+//         }
+//     }
+// }

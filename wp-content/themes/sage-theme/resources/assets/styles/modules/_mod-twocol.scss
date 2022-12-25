@@ -1,276 +1,258 @@
-// @screen md {
 .module-example-blade {
-    @apply px-10;
+    .slick-slider-demo {
+        h4 {
+            @apply pl-19 pr-22;
+        }
 
-    .border-nav {
-        @apply border-2 w-2/6 border-primary;
-
+        p {
+            @apply pl-30 pr-100;
+        }
     }
 
-    .text-module-two-column {
-        @apply text-4xl font-bold tracking-tight;
-    }
-
-    .text-1-module-two-column {
-        @apply text-xl pr-100 font-bold tracking-sp8;
-    }
-
-    .conten-slick-demo {
-        @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
-        @apply border-solid border-2 rounded-3xl bg-white;
-    }
 
     .slick-prev {
         &::before {
-            @apply text-orange-100;
-            // color: orangered;
-            font-size: 25px;
-            // float: bottom;
+            @apply text-orange-100 text-2xl;
+            // font-size: 25px;
         }
     }
 
     .slick-next {
         &::before {
-            @apply text-orange-100;
-            // color: orangered;
-            font-size: 25px;
+            @apply text-orange-100 text-2xl;
+            // font-size: 25px;
         }
     }
-   
 }
 
+// @screen xl {
+
+//     // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
+//     .module-example-blade {
+//         @apply px-72;
+
+
+//         .nav-module-two-column-1 {
+//             @apply flex-1 pb-25;
+
+//             .border-nav {
+//                 @apply border-2 w-1/4 border-primary;
+//             }
+//         }
+
+//         h3 {
+//             @apply pr-55;
+//         }
+
+//         h4 {
+//             @apply pr-35;
+//         }
+
+//         h5 {
+//             @apply pr-35;
+//         }
+
+//         .nav-module-two-column-2 {
+//             @apply flex-1 pb-65;
+//         }
+
+//         .nav-2-module-two-column {
+//             @apply flex;
+
+//             .nav-2-1-module-two-column {
+//                 @apply flex-1;
+//             }
+
+//             .article-module-two-column {
+//                 @apply w-11/12 text-lg pr-37;
+//             }
+//         }
+
+//         .text-module-two-column {
+//             @apply text-4xl font-bold tracking-tight;
+//         }
+
+//         .text-1-module-two-column {
+//             @apply text-xl pr-100 font-bold tracking-sp8;
+//         }
+
+//         .conten-slick-demo {
+//             @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+//             @apply border-solid border-2 rounded-3xl bg-white;
+//         }
+
+//         .slick-prev {
+//             &::before {
+//                 @apply text-orange-100;
+//                 // color: orangered;
+//                 font-size: 25px;
+//                 // float: bottom;
+//             }
+//         }
+
+//         .slick-next {
+//             &::before {
+//                 @apply text-orange-100;
+//                 // color: orangered;
+//                 font-size: 25px;
+//             }
+//         }
+//     }
 // }
 
-@screen xl {
+// @screen 2xl {
+//     // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
 
-    // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
-    .module-example-blade {
-        @apply px-72;
+//     .module-example-blade {
+//         @apply px-72;
+
+//         .nav-module-two-column {
+//             @apply flex;
+//         }
+
+//         .nav-module-two-column-1 {
+//             @apply flex-1;
+
+//             .border-nav {
+//                 @apply border-2 w-1/4 border-primary;
+//             }
+//         }
+
+//         h1 {
+//             @apply pr-75;
+//         }
+
+//         h3 {
+//             @apply pr-25;
+//         }
+
+//         h4 {
+//             @apply pr-20;
+//         }
+
+//         h5 {
+//             @apply pr-0;
+//         }
+
+//         .nav-module-two-column-2 {
+//             @apply flex-1;
+//         }
+
+//         .nav-2-module-two-column {
+//             @apply flex;
+
+//             .nav-2-1-module-two-column {
+//                 @apply flex-1;
+//             }
+
+//             .article-module-two-column {
+//                 @apply w-11/12 text-lg pr-0;
+//             }
+//         }
+
+//         .text-module-two-column {
+//             @apply text-4xl font-bold tracking-tight;
+//         }
+
+//         .text-1-module-two-column {
+//             @apply text-xl pr-100 font-bold text-gray-400;
+//         }
+
+//         .conten-slick-demo {
+//             @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
+//             @apply border-solid border-2 rounded-3xl bg-white;
+//         }
 
 
-        .nav-module-two-column-1 {
-            @apply flex-1 pb-25;
+//     }
+// }
 
-            .border-nav {
-                @apply border-2 w-1/4 border-primary;
-            }
-        }
+// // @media (min-width: 1920px) {
+// @screen 2k {
+//     .module-example-blade {
+//         @apply px-72;
 
-        h3 {
-            @apply pr-55;
-        }
+//         .nav-module-two-column {
+//             @apply flex;
+//         }
 
-        h4 {
-            @apply pr-35;
-        }
+//         .nav-module-two-column-1 {
+//             @apply flex-1;
 
-        h5 {
-            @apply pr-35;
-        }
+//             .border-nav {
+//                 @apply border-2 w-1/4 border-primary;
+//             }
+//         }
 
-        .nav-module-two-column-2 {
-            @apply flex-1 pb-65;
-        }
+//         // h1 {
+//         //     @apply pr-75;
+//         // }
 
-        .nav-2-module-two-column {
-            @apply flex;
+//         // h3 {
+//         //     @apply pr-25;
+//         // }
 
-            .nav-2-1-module-two-column {
-                @apply flex-1;
-            }
+//         // h4 {
+//         //     @apply pr-20;
+//         // }
 
-            .article-module-two-column {
-                @apply w-11/12 text-lg pr-37;
-            }
-        }
+//         // h5 {
+//         //     @apply pr-0;
+//         // }
 
-        .text-module-two-column {
-            @apply text-4xl font-bold tracking-tight;
-        }
+//         .nav-module-two-column-2 {
+//             @apply flex-1;
+//         }
 
-        .text-1-module-two-column {
-            @apply text-xl pr-100 font-bold tracking-sp8;
-        }
+//         .nav-2-module-two-column {
+//             @apply flex;
 
-        .conten-slick-demo {
-            @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
-            @apply border-solid border-2 rounded-3xl bg-white;
-        }
+//             .nav-2-1-module-two-column {
+//                 @apply flex-1;
+//             }
 
-        .slick-prev {
-            &::before {
-                @apply text-orange-100;
-                // color: orangered;
-                font-size: 25px;
-                // float: bottom;
-            }
-        }
+//             .article-module-two-column {
+//                 @apply w-11/12 text-lg pr-0;
+//             }
+//         }
 
-        .slick-next {
-            &::before {
-                @apply text-orange-100;
-                // color: orangered;
-                font-size: 25px;
-            }
-        }
-    }
-}
+//         .text-module-two-column {
+//             @apply text-4xl font-bold tracking-tight;
+//         }
 
-@screen 2xl {
-    // xl: là màn hình kích thước 1200 đã mặc định trong file screens.js
+//         .text-1-module-two-column {
+//             @apply text-xl pr-100 font-bold text-gray-400;
+//         }
 
-    .module-example-blade {
-        @apply px-72;
+//         .conten-slick-demo {
+//             @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
+//             @apply border-solid border-2 rounded-3xl bg-white;
+//         }
 
-        .nav-module-two-column {
-            @apply flex;
-        }
+//         .slick-prev {
+//             &::before {
+//                 color: orangered;
+//                 font-size: 25px;
+//                 // float: bottom;
+//             }
+//         }
 
-        .nav-module-two-column-1 {
-            @apply flex-1;
+//         .slick-next {
+//             &::before {
+//                 color: orangered;
+//                 font-size: 25px;
+//             }
+//         }
+//     }
+// }
 
-            .border-nav {
-                @apply border-2 w-1/4 border-primary;
-            }
-        }
-
-        h1 {
-            @apply pr-75;
-        }
-
-        h3 {
-            @apply pr-25;
-        }
-
-        h4 {
-            @apply pr-20;
-        }
-
-        h5 {
-            @apply pr-0;
-        }
-
-        .nav-module-two-column-2 {
-            @apply flex-1;
-        }
-
-        .nav-2-module-two-column {
-            @apply flex;
-
-            .nav-2-1-module-two-column {
-                @apply flex-1;
-            }
-
-            .article-module-two-column {
-                @apply w-11/12 text-lg pr-0;
-            }
-        }
-
-        .text-module-two-column {
-            @apply text-4xl font-bold tracking-tight;
-        }
-
-        .text-1-module-two-column {
-            @apply text-xl pr-100 font-bold text-gray-400;
-        }
-
-        .conten-slick-demo {
-            @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
-            @apply border-solid border-2 rounded-3xl bg-white;
-        }
-
-        .slick-prev {
-            &::before {
-                color: orangered;
-                font-size: 25px;
-                // float: bottom;
-            }
-        }
-
-        .slick-next {
-            &::before {
-                color: orangered;
-                font-size: 25px;
-            }
-        }
-    }
-}
-
-// @media (min-width: 1920px) {
-@screen 2k {
-    .module-example-blade {
-        @apply px-72;
-
-        .nav-module-two-column {
-            @apply flex;
-        }
-
-        .nav-module-two-column-1 {
-            @apply flex-1;
-
-            .border-nav {
-                @apply border-2 w-1/4 border-primary;
-            }
-        }
-
-        // h1 {
-        //     @apply pr-75;
-        // }
-
-        // h3 {
-        //     @apply pr-25;
-        // }
-
-        // h4 {
-        //     @apply pr-20;
-        // }
-
-        // h5 {
-        //     @apply pr-0;
-        // }
-
-        .nav-module-two-column-2 {
-            @apply flex-1;
-        }
-
-        .nav-2-module-two-column {
-            @apply flex;
-
-            .nav-2-1-module-two-column {
-                @apply flex-1;
-            }
-
-            .article-module-two-column {
-                @apply w-11/12 text-lg pr-0;
-            }
-        }
-
-        .text-module-two-column {
-            @apply text-4xl font-bold tracking-tight;
-        }
-
-        .text-1-module-two-column {
-            @apply text-xl pr-100 font-bold text-gray-400;
-        }
-
-        .conten-slick-demo {
-            @apply pr-[380px] pl-[150px] pt-54 pb-50 tracking-tight;
-            @apply border-solid border-2 rounded-3xl bg-white;
-        }
-
-        .slick-prev {
-            &::before {
-                color: orangered;
-                font-size: 25px;
-                // float: bottom;
-            }
-        }
-
-        .slick-next {
-            &::before {
-                color: orangered;
-                font-size: 25px;
-            }
-        }
-    }
-}
+// .module-example-blade {
+//     p {
+//         @apply text-2xl;
+//     }
+// }
+// .column-ex-1 {
+//     p {
+//         @apply text-3xl;
+//     }
+// }
