@@ -1,17 +1,11 @@
-// .module-nice-column {
-//     @apply border-t border-gray-400 pt-48 ;
+.module-nice-column {
+    h2 {
+        @apply max-w-500 m-auto text-center;
+    } 
 
-//     .row-module-nice {
-//         @apply font-bold text-4xl pb-3 text-center;
-//     }
-
-//     .row-module-nice-2 {
-//         @apply px-40 text-lg font-light text-center pb-13;
-//     }
-
-//     // .slick-slider-demo-module-nice-column {
-//     //     @apply px-25;
-//     // }
+    p {
+        @apply max-w-600 m-auto text-center pt-5 ;
+    }
 
     .slick-prev {
         &::before {
@@ -27,7 +21,7 @@
             font-size: 25px;
         }
     }
-// }
+}
 
 // @screen xl {
 //     .module-nice-column {

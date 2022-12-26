@@ -1,92 +1,42 @@
-// // @screen md {
-// .module-one-column {
-//     @apply bg-bgbanner bg-cover bg-no-repeat h-[550px] border-2 border-t-4 mt-[-50px];
+@screen md {
+    .module-one-column {
+        h1 {
+            @apply max-w-500 m-auto text-center;
+        }
 
-//     .Connection-one-column {
-//         @apply text-center;
-//     }
+        p {
+            @apply max-w-360 m-auto text-center pt-10;
+        }
 
-//     .content-one-column {
-//         @apply text-6xl font-bold;
-//         color: white;
-//     }
+        .link {
+            @apply text-center pt-9;
+        }
 
-//     .Connection-one-column-1 {
-//         @apply px-100 text-center;
-//     }
+        img {
+            @apply float-right pt-30;
+        }
+    }
 
-//     .content-one-column-1 {
-//         @apply text-xl font-light not-italic;
-//         color: white;
-//     }
+}
 
-//     .Connection-one-column-2 {
-//         @apply pt-18 text-center;
-//     }
+@screen lg {
+    .module-one-column {
+        .module-one-column-row {
+            @apply pt-50;
 
-//     .flex-two-column {
-//         @apply pt-30 p-0;
+            .link {
+                @apply text-center pt-9;
+            }
 
-//         img {
-//             @apply float-right h-[500px];
-//         }
-//     }
-
-//     .context-one-column-2 {
-//         @apply border-solid border-2 p-10 border-r rounded-3xl bg-primary;
-//     }
-// }
-
-
-
-// // }
+            img {
+                @apply float-right pt-0;
+            }
+        }
+    }
+}
 
 // @screen xl {
-//     .module-one-column {
-//         @apply bg-bgbanner bg-cover bg-no-repeat h-[570px] border-2 border-t-4 mt-[-60px];
 
-//         .flex-one-column {
-//             @apply pl-50 pt-20 flex-1;
-//         }
-
-//         .module-one-column-flex {
-//             @apply flex;
-//         }
-
-//         .flex-two-column {
-//             @apply pt-25 flex-1;
-//         }
-
-//         .flex-two-column {
-//             @apply pt-25 flex-1;
-//         }
-
-//         .Connection-one-column {
-//             @apply pr-20;
-//         }
-
-//         .content-one-column {
-//             @apply text-6xl font-bold;
-//             color: white;
-//         }
-
-//         .Connection-one-column-1 {
-//             @apply pr-[210px] pb-4 pr-88;
-//         }
-
-//         .Connection-one-column-2 {
-//             @apply pt-20;
-//         }
-
-//         .content-one-column-1 {
-//             @apply text-xl font-light not-italic;
-//             color: white;
-//         }
-
-//         .context-one-column-2 {
-//             @apply border-solid border-2 p-10 px-40 border-r rounded-3xl bg-primary;
-//         }
-//     }
 // }
 
 

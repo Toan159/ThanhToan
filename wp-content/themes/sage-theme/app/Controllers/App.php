@@ -143,4 +143,22 @@ class App extends Controller
         $name = "Module" . $num;
         return $name;
     }
+
+
+    // public static function getBanner()
+    // {
+    //     $logo = get_field('ns_header_logo', ACF_OPTION);
+    //     $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/default/image_header.png';
+    //     $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
+    //     $href = home_url();
+    //     return compact('url', 'alt', 'href');
+    // }
+    // public static function getLoad()
+    // {
+    //     $logo = get_field('ns_header_logo', ACF_OPTION);
+    //     $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/default/load.png';
+    //     $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
+    //     $href = home_url();
+    //     return compact('url', 'alt', 'href');
+    // }
 }

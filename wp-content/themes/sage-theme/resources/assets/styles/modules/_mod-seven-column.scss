@@ -1,24 +1,12 @@
-// // .module-seven-column {
-// //     .module-seven {
-// //         @apply pl-52;
-// //     }
-
-// //     .row-module-seven {
-// //         @apply text-5xl font-bold;
-// //     }
-
-// //     .row-module-seven-1 {
-// //         @apply text-3xl pr-60;
-// //     }
-
-// //     .row-module-seven-2 {
-// //         @apply text-3xl pr-90;    
-// //     }
-
-// //     .row-module-seven-3 {
-// //         @apply text-3xl pr-95;
-// //     }
-// // }
+.module-seven-column {
+    h5 {
+        @apply pl-[250px];
+    }
+    
+    p {
+        @apply text-4xl pl-[250px] ;
+    }
+}
 
 // @screen xl {
 //     .module-seven-column {

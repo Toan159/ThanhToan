@@ -1,11 +1,34 @@
 <section class="module-two-column pt-100">
-    <div class="container ">
-        <div class="px-37 text-center ">
+    <div class="container">
+        <div>
+            <div class="text-center">
+                {!! $data->module['heading_2'] !!}
+            </div>
+    
+            <div class="row">
+                @foreach ( $data->module['content_two'] as $item )
+                <div class="content_two col w-full text-center lg:w-1/3">
+                    <div class="flex lg:h-36 lg:pt-0 lg:items-center lg:justify-center"><img src="{{ $item->icon->url }}" alt="{{ $item->icon->alt }}"></div>
+                    
+                    <div class="pt-9">{!! $item->content_2 !!}</div>
+                    <div class="text-orange-200 font-bold pt-5">
+                        <a  href="{{ $item->link->url }}" target="{{ $item->link->target }}">{{ $item->link->title }} 
+                            <span class="icomoon icon-chevron-right"></a>
+                    </div>
+                </div>     
+                @endforeach
+            </div>
+        </div>
+
+
+        {{-- <div class="px-37 text-center ">
             <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
             <p>At Encompass, we’re revolutionizing the beverage and food supply chain like no other ERP solution has before.
                 By digitally connecting manufacturers, distributors, and retailers, our ERP SaaS solutions streamline operations,
                 simplify decision making, and equip businesses for success in a fast-changing and unpredictable market.</p>
         </div>
+
+
 
         <div class="row px-63">
             <div class="col w-full text-center ">
@@ -31,6 +54,6 @@
                     retail eCommerce websites, delivery applications, and more.</p>
                 <p class="text-orange-200 font-bold">EXPLORE retail solutions<span class="icomoon icon-chevron-right"></span></p>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>

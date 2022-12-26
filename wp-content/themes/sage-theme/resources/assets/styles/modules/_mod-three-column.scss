@@ -1,7 +1,21 @@
-.module-page-three {
-    .pt-9 {
-        span {
-            @apply text-white font-bold border-solid p-10 border-r rounded-3xl bg-primary px-40 text-base;
+.module-three-column {
+    .content_three {
+        p {
+            @apply pr-10;
+        }
+    }
+}
+
+@screen lg {
+    .module-three-column {
+        .content_three {
+            h2 {
+                @apply pr-100;
+            }
+
+            p {
+                @apply pr-65;
+            }
         }
     }
 }

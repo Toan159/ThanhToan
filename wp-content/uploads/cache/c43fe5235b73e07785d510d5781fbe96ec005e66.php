@@ -1,38 +1,24 @@
 <section class="module-six-column bg-gray-300 px-50 pb-50 pt-49">
     <div class="container">
-        <div class="Our-Open-column row">
-            <div class="row col col-span-1">
-                <div class=" row col xl:w-3/5 2xl:w-1/2">
-                    <div class="">
-                        <h2 >
-                            Our Open Ecosystem of Partners Gives You the Power to Choose 
-                        </h2>
-                    </div>
-                    <div class="pr-25 2xl:w-auto ">    
-                        <div>
-                            <span>We believe in the power of transparency and connectedness. Encompass’ ecosystem of partners
-                                combines diversity and best-in-class API functionality to provide one powerful,
-                                unified source of truth for our clients, no matter how many modules they choose to utilize.</span>
-                        </div>
-                        <div class="pt-5">
-                            <span >
-                                With Encompass ERP, you choose only the tools and partners you need, leaving out what isn’t necessary.
-                                Finally, your beverage or food supply chain can now be managed with a single sign-on experience without
-                                compromising efficiency or breaking data flow.</span>
-                        </div>
-                    </div>
-                </div>
+       
+        <div class="xl:hidden"><?php echo $data->module['content_six']; ?></div>
+        <div class="row">
+            <div class="col lg:w-1/2">
+                <div class="hidden xl:block"><?php echo $data->module['content_six']; ?></div>
+                <?php echo $data->module['text']; ?>
 
-                <div class="row xl:w-2/5 2xl:w-1/2">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/aperity.png'); ?>">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/cba-logo.png'); ?>">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/modem.png'); ?>">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/untappa.png'); ?>">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/provi.png'); ?>">
-                    <img class="column col " src="<?= \App\asset_path('./images/default/salsify.png'); ?>">
-                    
+            </div>
+            <div class="col lg:w-1/2">
+                <div class="row ">
+                    <?php $__currentLoopData = $data->module['image']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <div class="col lg:w-1/2">
+                            <img src="<?php echo e($item->image_content->url); ?>" alt="<?php echo e($item->image_content->alt); ?>">
+                        </div>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
             </div>
         </div>
+
+        
     </div>
 </section>
