@@ -21,13 +21,22 @@
 @screen lg {
     .module-two-column {
         @apply pt-0; 
-        
-        .content_two {
-            p {
-                @apply max-w-[680px] m-auto pt-5;
-            }
+ 
+        p {
+            @apply max-w-[680px] m-auto pt-5;
         }
     }
 }
+
+@screen xl {    
+    .module-two-column {
+        @apply pt-0; 
+        
+        p {
+            @apply max-w-[720px] m-auto pt-5;
+        }
+    }
+}
+
 
 

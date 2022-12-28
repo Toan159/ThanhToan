@@ -1,4 +1,4 @@
-<section class="module-six-column bg-gray-300 px-50 pb-50 pt-49">
+<section class="module-six-column bg-gray-300 lg:px-50 xl:px-50 pb-50 pt-49">
     <div class="container">
        
         <div class="xl:hidden"><?php echo $data->module['content_six']; ?></div>
@@ -11,14 +11,12 @@
             <div class="col lg:w-1/2">
                 <div class="row ">
                     <?php $__currentLoopData = $data->module['image']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <div class="col lg:w-1/2">
+                        <div class="col w-1/2 h-50 flex items-center justify-center lg:w-1/2 xl:h-80 2xl:h-55">
                             <img src="<?php echo e($item->image_content->url); ?>" alt="<?php echo e($item->image_content->alt); ?>">
                         </div>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
             </div>
         </div>
-
-        
     </div>
 </section>

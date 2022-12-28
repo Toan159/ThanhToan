@@ -1,7 +1,7 @@
 <?php 
     // var_dump($data->module['repeater']); die;
 ?>
-<section class="module-example-blade px-55">
+<section class="module-example-blade lg:px-55">
     <div class="container">
         <div class="row">
             <div class="col w-full 2xl:w-2/5">
@@ -21,12 +21,12 @@
             </div>
         </div>
 
-        <div class="slick-slider-demo ">
-            <div class="border-solid border-2 rounded-3xl bg-white pt-40 pb-30 font-bold">
+        <div class="slick-slider-demo">
+            <div class="border-solid border-2 rounded-3xl bg-brown-300 pt-40 pb-30 font-bold 2xl:pr-[300px] 2xl:pl-90">
                 <?php echo $data->module['slick_slider_demo']; ?>
 
             </div>
-            <div class="border-solid border-2 rounded-3xl bg-white pt-40 pb-30 font-bold">
+            <div class="border-solid border-2 rounded-3xl bg-brown-300 pt-40 pb-30 font-bold 2xl:pr-[300px] 2xl:pl-90">
                 <?php echo $data->module['slick_slider_demo_1']; ?>
 
             </div>

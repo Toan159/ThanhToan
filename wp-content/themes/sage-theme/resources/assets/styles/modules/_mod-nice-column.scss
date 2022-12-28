@@ -23,65 +23,18 @@
     }
 }
 
-// @screen xl {
-//     .module-nice-column {
-//         @apply border-t border-gray-400 pt-48 px-25;
+@screen xl {
+    .module-nice-column {
+        p {
+            @apply max-w-[800px] m-auto text-center pt-5 ;
+        }
+    }
+}
 
-//         .row-module-nice {
-//             @apply pr-[200px] pl-[200px] font-bold text-4xl pb-3 text-center;
-//         }
-
-//         .row-module-nice-2 {
-//             @apply pl-[250px] pr-[250px] text-lg font-light text-center pb-13;
-//         }
-
-//         // .slick-slider-demo-module-nice-column {
-//         //     @apply px-25;
-//         // }
-
-//         .slick-prev {
-//             &::before {
-//                 color: orangered;
-//                 font-size: 25px;
-//                 // float: bottom;
-//             }
-//         }
-
-//         .slick-next {
-//             &::before {
-//                 color: orangered;
-//                 font-size: 25px;
-//             }
-//         }
-//     }
-// }
-
-// @screen 2xl {
-//     .module-nice-column {
-//         @apply border-t border-gray-400 px-72;
-
-//         .row-module-nice {
-//             @apply pr-[200px] pl-[200px] font-bold text-4xl pb-3 text-center;
-
-//         }
-
-//         .row-module-nice-2 {
-//             @apply pl-[170px] pr-[170px] text-lg font-light text-center pb-13;
-//         }
-
-//         .slick-prev {
-//             &::before {
-//                 color: orangered;
-//                 font-size: 25px;
-//                 // float: bottom;
-//             }
-//         }
-
-//         .slick-next {
-//             &::before {
-//                 color: orangered;
-//                 font-size: 25px;
-//             }
-//         }
-//     }
-// }
+@screen 2k {
+    .module-nice-column {
+        p {
+            @apply max-w-[800px] m-auto text-center pt-5 ;
+        }
+    }
+}

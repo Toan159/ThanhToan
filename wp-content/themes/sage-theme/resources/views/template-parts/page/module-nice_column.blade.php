@@ -1,7 +1,7 @@
-<section class="module-nice-column px-30 border-t-2 border-solid  border-gray-500">
+<section class="module-nice-column lg:px-30 border-t-2 border-solid  border-gray-500">
     <div class="container pt-37">
         <div>
-            <div>
+            <div >
                 {!! $data->module['content_nice'] !!}
             </div>
     
